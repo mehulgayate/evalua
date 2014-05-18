@@ -1,4 +1,6 @@
 /target
 /.settings
-.project
+/.git
 .classpath
+.project
+
