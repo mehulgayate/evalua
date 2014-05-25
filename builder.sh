@@ -30,6 +30,9 @@ cd WEB-INF
 rm -rf jsp
 ln -s $PROJECT_HOME/src/main/webapp/WEB-INF/jsp jsp
 
+rm -rf freemarker-www
+ln -s $PROJECT_HOME/src/main/webapp/WEB-INF/freemarker-www freemarker-www
+
 cd $TOMCAT_BIN
   ./catalina.sh run
 
